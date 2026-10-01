@@ -1,0 +1,464 @@
+{
+ "bench": "tanker",
+ "adapter": "adapters.mine:MySolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "tanker-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 40,
+   "digest": "6585d96562746073",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.016412,
+     6426
+    ],
+    [
+     0.082504,
+     6371
+    ],
+    [
+     5.468994,
+     6333
+    ],
+    [
+     5.480698,
+     6328
+    ],
+    [
+     5.603465,
+     6325
+    ]
+   ],
+   "checkpoint_costs": [
+    6371,
+    6371,
+    6371,
+    6325
+   ],
+   "final_cost": 6325,
+   "accepted": 6,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 6.084
+  },
+  {
+   "name": "tanker-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 70,
+   "digest": "4339088008a4f82f",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.02607,
+     10352
+    ],
+    [
+     0.035295,
+     10311
+    ],
+    [
+     0.03727,
+     10236
+    ],
+    [
+     0.050245,
+     10091
+    ],
+    [
+     0.096329,
+     10076
+    ],
+    [
+     0.103436,
+     10067
+    ],
+    [
+     0.128116,
+     9943
+    ],
+    [
+     0.132412,
+     9938
+    ]
+   ],
+   "checkpoint_costs": [
+    9938,
+    9938,
+    9938,
+    9938
+   ],
+   "final_cost": 9938,
+   "accepted": 9,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.889
+  },
+  {
+   "name": "tanker-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 110,
+   "digest": "98b516fe635c2ae2",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.085855,
+     12173
+    ],
+    [
+     0.11284,
+     11958
+    ],
+    [
+     0.289181,
+     11938
+    ],
+    [
+     0.338913,
+     11931
+    ],
+    [
+     0.445238,
+     11896
+    ],
+    [
+     0.512171,
+     11883
+    ],
+    [
+     0.745221,
+     11748
+    ],
+    [
+     0.751374,
+     11742
+    ],
+    [
+     1.063865,
+     11697
+    ],
+    [
+     2.950594,
+     11656
+    ],
+    [
+     2.96387,
+     11510
+    ],
+    [
+     3.153914,
+     11480
+    ],
+    [
+     3.459258,
+     11437
+    ],
+    [
+     3.473589,
+     11378
+    ],
+    [
+     3.850606,
+     11332
+    ]
+   ],
+   "checkpoint_costs": [
+    11938,
+    11697,
+    11510,
+    11332
+   ],
+   "final_cost": 11332,
+   "accepted": 16,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 6.312
+  },
+  {
+   "name": "tanker-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 150,
+   "digest": "13345f098aa96a56",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.208879,
+     15635
+    ],
+    [
+     0.301443,
+     14892
+    ],
+    [
+     0.499554,
+     14564
+    ],
+    [
+     0.838411,
+     14557
+    ],
+    [
+     0.859975,
+     14531
+    ],
+    [
+     0.878079,
+     14528
+    ],
+    [
+     1.016889,
+     14522
+    ],
+    [
+     1.039481,
+     14518
+    ],
+    [
+     1.105541,
+     14515
+    ],
+    [
+     1.271333,
+     14448
+    ],
+    [
+     1.315715,
+     14405
+    ],
+    [
+     1.434521,
+     14392
+    ],
+    [
+     2.14951,
+     14350
+    ],
+    [
+     2.552357,
+     14327
+    ],
+    [
+     2.870554,
+     14317
+    ]
+   ],
+   "checkpoint_costs": [
+    15635,
+    14515,
+    14317,
+    14317
+   ],
+   "final_cost": 14317,
+   "accepted": 16,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 6.134
+  },
+  {
+   "name": "tanker-05",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 60,
+   "digest": "6bf5303dc8dbb2e0",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.026592,
+     11086
+    ],
+    [
+     0.035922,
+     10418
+    ],
+    [
+     0.086519,
+     10410
+    ],
+    [
+     0.092104,
+     10396
+    ],
+    [
+     0.142829,
+     10395
+    ],
+    [
+     0.16797,
+     10379
+    ],
+    [
+     0.882586,
+     10366
+    ],
+    [
+     0.89128,
+     10365
+    ],
+    [
+     2.43298,
+     10362
+    ],
+    [
+     2.567518,
+     10353
+    ],
+    [
+     2.595095,
+     10352
+    ],
+    [
+     4.284037,
+     10339
+    ],
+    [
+     4.300931,
+     10338
+    ]
+   ],
+   "checkpoint_costs": [
+    10379,
+    10365,
+    10352,
+    10338
+   ],
+   "final_cost": 10338,
+   "accepted": 14,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 6.117
+  },
+  {
+   "name": "tanker-06",
+   "family": "clustered-tight",
+   "shifted": true,
+   "size": 120,
+   "digest": "2d27d5c5056ab14e",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 6.0,
+   "history": [
+    [
+     0.078,
+     21439
+    ],
+    [
+     0.636252,
+     21234
+    ],
+    [
+     1.055402,
+     21214
+    ],
+    [
+     1.348,
+     21188
+    ],
+    [
+     1.554394,
+     21185
+    ],
+    [
+     1.563744,
+     21179
+    ],
+    [
+     2.549913,
+     21174
+    ],
+    [
+     2.990362,
+     21140
+    ],
+    [
+     3.258166,
+     21101
+    ],
+    [
+     4.518877,
+     21053
+    ],
+    [
+     4.594499,
+     21040
+    ],
+    [
+     4.752704,
+     21036
+    ],
+    [
+     4.932373,
+     21032
+    ],
+    [
+     5.009049,
+     21027
+    ],
+    [
+     5.229555,
+     21022
+    ],
+    [
+     5.236013,
+     21008
+    ]
+   ],
+   "checkpoint_costs": [
+    21439,
+    21214,
+    21140,
+    21008
+   ],
+   "final_cost": 21008,
+   "accepted": 17,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 6.134
+  }
+ ],
+ "points": {
+  "scores": {
+   "tanker-01": 0.9786046511627907,
+   "tanker-02": 0.8564285714285713,
+   "tanker-03": 0.9620493358633776,
+   "tanker-04": 0.9515989797920346,
+   "tanker-05": 0.976413043478261,
+   "tanker-06": 0.916610898661568
+  },
+  "family_means": {
+   "uniform": 0.9371703845616935,
+   "clustered-tight": 0.9465119710699145
+  },
+  "robustness_halved": false,
+  "quality": 65.81989727117704,
+  "robustness": 18.93023942139829,
+  "engineering": 10.0,
+  "total": 94.75013669257532
+ }
+}
